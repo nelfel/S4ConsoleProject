@@ -35,9 +35,6 @@ personas.Add(persona3);
 // lambda Expressions
 var busqueda = personas.Where(x => x.dni == 9922882).FirstOrDefault();
 
-//LINQ Query Expressions
-
-
 if (busqueda != null)
     Console.WriteLine("La persona encontrada es: " + busqueda.nombreCompleto);
 else
